@@ -24,6 +24,7 @@ body {
     color: #02C39A;
     cursor: pointer;
     padding: 6px 15px;
+    margin-left: 72px;
 }
 
 .flex {
@@ -112,7 +113,7 @@ ul {
 
 .text {
     font-size: 40px;
-    /* margin-left: 58px; */
+
     font-weight: bold;
     width: 500px;
     height: 200px;
@@ -191,4 +192,177 @@ ul {
 .search-nav:hover {
     color: #02C39A;
     background-color: #fff;
+}
+
+.card-travel {
+    flex-direction: column;
+    min-width: 100%;
+    height: 100%;
+    margin-top: 121px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-head {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.world-icon {
+    margin-left: 16px;
+    border: 1px solid #c8c8c8;
+    padding: 14px 15px;
+    border-radius: 27px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.world-icon:hover {
+    background-color: #ebebeb;
+}
+
+.world-icon>p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.world-icon>p>.fa-chevron-down {
+    margin-left: 5px;
+}
+
+.card-head-text {
+    margin-left: 204px;
+    margin-right: 36px;
+}
+
+.card-head-text>p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-content {
+    color: #c8c8c8;
+    font-size: 13px;
+}
+
+
+.card-button>i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    transition-duration: 1s;
+}
+
+.card-button {
+    cursor: pointer;
+    margin-right: 204px;
+}
+
+.card-button>i:hover {
+    background-color: #ebebeb;
+    color: #fff;
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-item1 {
+    width: 286px;
+    height: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+
+}
+
+.card-item1>img {
+    width: 100%;
+    height: 280px;
+    cursor: pointer;
+}
+
+.card-container-text {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-flag {
+    display: flex;
+}
+
+.card-city>p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-flag>p>img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.city-name {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.card-dollar {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.people {
+    font-size: 14px;
+}
+
+.card-duration {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.view-button {
+    width: 114px;
+    height: 51px;
+    border: 1px solid #02C39A;
+    display: block;
+    color: #02C39A;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+    padding-top: 17px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #02C39A;
+    color: #fff;
 }
