@@ -16,6 +16,24 @@ body {
     height: 100%;
 }
 
+body::-webkit-scrollbar{
+    width: 2vh;
+    background: linear-gradient(250deg, rgb(41, 128, 185), rgb(109, 213, 250), rgb(255, 255, 255));
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a7ff83;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    height: 14vh;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #92e671;
+
+}
+
 .item1 {
     padding: 20px 0px;
 }
@@ -365,4 +383,141 @@ ul {
 .view-button:hover {
     background-color: #02C39A;
     color: #fff;
+}
+
+.popular-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popular-head {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px 50px;
+}
+
+.popular-country1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px 0px;
+    padding: 0px 130px;
+}
+
+.barcelona1 {
+    width: 176px;
+    height: 100%;
+    border: 1px solid #f6f6f6;
+    padding: 26px 20px;
+    padding-right: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.barcelona1>img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.barcelona1>span {
+    font-size: 10px;
+}
+
+.popular-city-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* country2 */
+
+.popular-country2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px 0px;
+    padding: 0px 130px;
+}
+
+.newyork2 {
+    width: 176px;
+    height: 100%;
+    border: 1px solid #f6f6f6;
+    padding: 26px 20px;
+    padding-right: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.newyork2:hover{
+    background-color: #02C39A;
+    color: #fff;
+}
+
+.barcelona1:hover{
+    background-color: #02C39A;
+    color: #fff;
+}
+
+.newyork2>img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.newyork2>span {
+    font-size: 10px;
+}
+
+.popular-city-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.footer-text {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.footer-text>p{
+    color: #02C39A;
+    cursor: pointer;
+    /* padding: 6px 15px; */
+    /* margin-left: 72px; */
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.footer-text>span {
+    font-size: 10px;
+    color: #000;
+    margin-left: 20px;
+}
+
+.instergram {
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 10px;
+    color: #000;
 }
