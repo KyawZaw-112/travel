@@ -532,16 +532,19 @@ ul {
     cursor: pointer;
     display: flex;
     flex-direction: column;
+    width: 86px;
+    align-items: center;
 }
 
 .instagram:hover .instagram-hover{
-    opacity: 1;
+    display: flex;
+    justify-content: center;
 } 
 
 .instagram-hover {
     border: 1px solid #02C39A;
     padding: 5px;
-    opacity: 0;
+    display: none;
     margin-top: 7px;
     background-color: #02C39A;
     font-size: 13px;
